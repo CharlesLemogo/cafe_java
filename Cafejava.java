@@ -1,3 +1,4 @@
+
 public class Cafejava {
     public static void main(String[] args) {
         // APP VARIABLES
@@ -12,8 +13,6 @@ public class Cafejava {
         double dripcoffePrice = 4.5;
         double lattePrice = 2.0;
         double cappuccinoPrice = 5.5;
-        double total = lattePrice + lattePrice;
-        double difference = cappuccinoPrice - dripcoffePrice;
     
         // Customer name variables (add yours below)
         String customer1 = "Cindhuri";
@@ -39,7 +38,7 @@ public class Cafejava {
             System.out.println(customer4 + pendingMessage);
         }
 
-        System.out.println(customer2 + " " + displayTotalMessage + total);
+        System.out.println(customer2 + " " + displayTotalMessage + lattePrice*2);
 
         if(isReadyOrder2) {
             System.out.println(customer2 + readyMessage);
@@ -48,7 +47,7 @@ public class Cafejava {
             System.out.println(customer2 + pendingMessage);
         }
 
-        System.out.println(customer3 + " " + displayTotalMessage + difference);
+        System.out.println(customer3 + " " + displayTotalMessage + (cappuccinoPrice - dripcoffePrice));
 
     }
 }
